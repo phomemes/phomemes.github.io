@@ -1,0 +1,14 @@
+main:
+  - title: "About"
+    url: /about/
+  - title: "Dates"
+    url: /dates/
+  - title: "Themes+Topics"
+    url: /themes/
+  - title: "Attend"
+    url: /attend/
+  - title: "Program"
+    url: /program/
+  - title: "Organization"
+    url: /org/
+
