@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   The workshop outlined in this proposal seeks to establish the limits of current capabilities in understanding the role and use of images in online political discourse, from misinformation and disinformation to political advertising and mobilization.
   By collecting and releasing a dataset of images used by politicians, by political activists, and by disinformation agents, we will establish a foundation for evaluating systems' abilities to identify potentially anti-social imagery in online spaces and track its use across platforms.
   We intend to bring together an interdisciplinary audience, with social scientists from political science and communications, computational scientists from machine learning and information studies, and industry experts who develop tools for image content moderation
-baseurl: "/phomemes.github.io" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://phomemes.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cbuntain
 github_username:  phomemes
