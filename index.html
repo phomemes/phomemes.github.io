@@ -4,29 +4,40 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/unsplash-image-1.jpg
+  overlay_image: /assets/images/AdobeStock_205325080.demo.jpeg
 excerpt: "A Workshop on Images in Online Political Communication"
-intro: 
-  - excerpt: 'This workshop seeks to establish the limits of current capabilities in understanding the role and use of images in online political discourse, from misinformation and disinformation to political advertising and mobilization.'
 feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: assets/images/AdobeStock_230307188.photographer.jpeg
+    alt: "Freelance photographer journalist takes a photo of a public demonstration"
+    title: "Imaging Protests"
+    excerpt: "Exposure to images of demonstrations impact mobilization"
+  - image_path: assets/images/CC.Math.jpg
+    alt: "Meme critical of common core math"
+    title: "Memes as Political Discourse"
+    excerpt: "Memes are increasingly used to criticize political topics, provide vectors of incidental exposure to topics, and can influence public discourse"
+  - image_path: /assets/images/QAnon.Protest.jpg
+    image_caption: "Image courtesy of [Crider](https://www.flickr.com/photos/acrider/49416341132/)"
+    alt: "Flag for the baseless conspiracy theory, QAnon"
+    title: "Sharing conspiracy theories"
+    excerpt: "Images serve as a vector for exposure"
 ---
 
-{% include feature_row id="intro" type="left" %}
+{% capture front_matter %}
+Co-located at [ICWSM 2022](https://icwsm.org/2022), 6th June 2022 - Atlanta, Georgia (US) and online 
+{: .notice--info}
+{% endcapture %}
+
+{{ front_matter | markdownify }}
+
+This workshop seeks to establish the limits of current capabilities in understanding the role and use of images in online political discourse, from misinformation and disinformation to political advertising and mobilization.
+
+<hr>
 
 {% include feature_row %}
+
+{% capture my_include %}{% include homepage.md %}{% endcapture %}
+{{ my_include | markdownify }}
+
+
+
 

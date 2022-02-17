@@ -1,14 +1,12 @@
 main:
-  - title: "About"
-    url: /about/
-  - title: "Dates"
-    url: /dates/
-  - title: "Themes+Topics"
-    url: /themes/
-  - title: "Attend"
-    url: /attend/
-  - title: "Program"
-    url: /program/
-  - title: "Organization"
-    url: /org/
+  - title: "Calls"
+    url: /cfp/
+  - title: "Data Challenge"
+    url: /challenge/
+  - title: "Timeline"
+    url: /timeline/
+  - title: "Workshop Agenda"
+    url: /agenda/
+  - title: "Organizers"
+    url: /orgs/
 
