@@ -15,8 +15,8 @@
 }
 </style>
 
-![image-left](/assets/images/people/blank.png){: .align-left .avatar} 
-Jungseock Joo <br/> [@xxx](http://twitter.com/xxx) <br/> xxx/xxx <br/> Departments of Communication and Statistics, UCLA. 
+![image-left](/assets/images/people/joo.jpg){: .align-left .avatar} 
+Jungseock Joo <br/> [@jsjoo3](https://twitter.com/jsjoo3) <br/> https://http://jsjoo.com/ <br/> Departments of Communication and Statistics, UCLA. 
 {: .align-left}
 
 
