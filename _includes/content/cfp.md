@@ -29,3 +29,8 @@ Practitioners are also invited to submit core and work-in-progress papers, but w
 These authors may instead submit a brief 1-2-page paper that will not be included in the proceedings. 
 We encourage submissions describing real-world experiences and case studies of interest to the workshop audience.
 These submissions will be reviewed according to relevance and ability to contribute to discussions.
+
+
+### Awards for Best Papers and Best Posters
+
+At the workshop, we will share awards for the best paper and best data challenge poster! We look forward to seeing your submissions and recognizing as many as we can.
