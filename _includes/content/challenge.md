@@ -11,3 +11,22 @@ Using this dataset, we are soliciting solutions to address the following challen
 ### Data Challenge Posters
 
 Submissions for the data challenge are expected to submit one-page papers describing their approach, which they will then present during the workshop.
+
+
+### Data Challenge Links
+
+Datasets for these challenges are available via this [link in Google Drive](https://drive.google.com/drive/folders/1T-rMCSjk5C41UTnbp69bC8g9zR5HVVaC?usp=sharing).
+
+This dataset is organized into folders per account, so you get a sample of images per account.
+In this folder, you will find:
+
+#### Training Data
+
+- `authenticity.training` - Samples of accounts and associated images across six classes, two authentic groups (`congress` from US Congresspeople and `political_images` from a sample of politically engaged US Twitter accounts) and four inauthentic groups.
+- `screenshot.training` - Links to datasets that can be used for training to identify specific screenshots.
+
+#### Challenge Data
+
+- `challenge_data.large` - A large dataset of 2,095 accounts and about 21 images per account. 
+- `challenge_data.small` - A small dataset of 411 accounts and about 21 images per account. This dataset is a subsample of the large dataset.
+
