@@ -41,5 +41,5 @@ Erik Bucy <br/> [@xxx](http://twitter.com/aaa)  <br/> xxx/xxx  <br/> College of 
 
 
 ![image-left](/assets/images/people/blank.png){: .align-left .avatar} 
-Zacharcy Steinert-Threlkeld <br/> [@xxx](http://twitter.com/aaa)  <br/> xxx/xxx <br/> Public Policy, UCLA Luskin School of Public Affairs. 
+Zachary Steinert-Threlkeld <br/> [@ZacharyST](http://twitter.com/ZacharyST)  <br/> he/his <br/> Public Policy, UCLA Luskin School of Public Affairs.
 {: .align-left}
