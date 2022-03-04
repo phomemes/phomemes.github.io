@@ -14,7 +14,7 @@ Topics include:
 - Images as disinformation-campaign vectors, and
 - Subtle symbols embedded in images.
 
-Papers should be submitted through [EasyChair](http://easychair.com) and use the [AAAI author kit](https://www.aaai.org/Publications/Templates/AuthorKit22.zip).
+Papers should be submitted through [EasyChair](https://easychair.org/my/conference?conf=phomemes22) and use the [AAAI author kit](https://www.aaai.org/Publications/Templates/AuthorKit22.zip).
 
 The workshop invites authors to submit three types of papers:
 
