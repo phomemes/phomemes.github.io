@@ -41,5 +41,5 @@
 
 
 ![image-left](/assets/images/people/zachary.jpg){: .align-left .avatar} 
-[Zacharcy Steinert-Threlkeld](https://zacharyst.com/) <br/> <br/>  <br/> Public Policy, UCLA Luskin School of Public Affairs. 
+[Zacharcy Steinert-Threlkeld](https://zacharyst.com/) <br/> [@ZacharyST](http://twitter.com/ZacharyST)  <br/> he/his <br/> Public Policy, UCLA Luskin School of Public Affairs.
 {: .align-left}
