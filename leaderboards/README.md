@@ -68,7 +68,7 @@ To ensure this, we request participants to submit:
 1. No more than 2 runs in any given period of 7 days.
 2. No more than 1 run with very small changes, such as different random seeds or different hyper-parameters (e.g., small changes in number of layers or number of training epochs).
 
-Participants who may want to run ablation studies on their models are encouraged to do so using prior TREC-IS edition data but not on the eval set.
+Participants who may want to run ablation studies on their models are encouraged to do so using training data, not the testing data.
 
 ### Metadata Updates
 
