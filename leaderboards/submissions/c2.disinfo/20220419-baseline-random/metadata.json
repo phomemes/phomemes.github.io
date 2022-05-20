@@ -1,0 +1,9 @@
+{
+  "runtag": "random",
+  "date": "2022-05-12",
+  "organization": "umd",
+  "model_description": "Baseline that predicts a random value for authenticity and a random campaign for disinfo agents",
+  "type": "automatic",
+  "paper": "",
+  "code": ""
+}

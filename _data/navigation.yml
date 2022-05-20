@@ -9,4 +9,6 @@ main:
     url: /agenda/
   - title: "Organizers"
     url: /orgs/
+  - title: "Leaderboards"
+    url: /leaderboards/
 
