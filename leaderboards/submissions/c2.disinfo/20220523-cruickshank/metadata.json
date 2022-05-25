@@ -1,9 +1,0 @@
-{
-    "runtag": "1.0",
-    "date": "2022-05-23",
-    "organization": "CMU-CASOS",
-    "model_description": "Visuale embeddings combined with supervised learning on user distribution features of their visual embeddings.",
-    "type": "manual",
-    "paper": "",
-    "code": ""
-  }
