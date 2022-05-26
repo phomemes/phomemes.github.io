@@ -7,6 +7,8 @@
     - Sefa Ozalp is an experienced data scientist who has worked on complex socio-technical projects across academia, non-profit, government and fintech sectors. As a data scientist, Sefa has successfully led multiple data science projects with real-world impact for high-calibre institutions considered leaders in their fields. Sefa focuses on applying both established and emerging data science methods with real-world data to understand, expose, and ultimately combat hate and extremism in online spaces. Working at the intersection of hate, extremism, and data science increasingly requires multimodal approaches. Sefa's work has been cited by various media outlets including Washington Post, New York Times, the Guardian, the BBC, and others.
 - 10:15-10:45 Panel on Multimedia in Social Media
 - 10:45-11:00 Coffee Break / Posters
+    - Poster: "Exploring the connectivity of memes and emotions of images through the use of Tagasaurus", Randyll Pandohie and [Alexander V. Mantzaris](https://sciences.ucf.edu/statistics/person/alexander-mantzaris/)
+    - Poster: "Visual Analysis of Covid-19 Misinformation on Social Media", Yibing Sun
 - 11:00-12:00 Paper Presentations #1
     - 11:00 - 11:20, ["Examining Similar and Ideologically Correlated Imagery in Online Political Communication"](https://arxiv.org/abs/2110.01183), Amogh Joshi and [Cody Buntain](https://scholar.google.com/citations?user=H2X3z4YAAAAJ&hl=en&oi=ao)
     - 11:20 - 11:40, ["Mapping Visual Themes among Authentic and Coordinated Memes"](https://kengchichang.com/files/paper/icwsm_2022_phomemes.pdf), [Keng-Chi Chang](https://kengchichang.com/)
