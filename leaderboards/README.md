@@ -12,7 +12,14 @@ To make a submission, please follow these instructions:
 1. Download the challenge data, either `challenge_data.small` or `challenge_data.large`.
 
 2. Based on which challenge you are submitting to, either create labels for the individual images in these datasets (Challenge 1 and Challenge 3), or create labels for each account in your selected dataset. 
-   - Challenge 1 submission details *coming soon*
+   - Challenge 1 submission details:
+      - Each folder in the challenge data corresponds to a particular account ID, and each image in the account has a unique ID as well. E.g., account ID `625c7c5d97cc393d3e09e84c54b027cc-53173` has image `0002.jpg`, and this image should have the image id `625c7c5d97cc393d3e09e84c54b027cc-53173/0002.jpg`.
+      - For each image ID, generate two of labels:
+          - The first label should contain `is_antisocial_label`, or whether the image contains anti-social content (`0 = no anti-social content`, `1 = contains anti-social content`) and the associated confidence score `is_antisocial_score`, or`0.0-1.0`, generally describing something like the confidence that this image contains anti-social imagery.
+      - Write this data out to a CSV file, called `run.csv`, that contains the following three fields:
+         - `img_id` - Hashed user ID + img id, corresponds to the folder's name and the associated image
+         - `is_antisocial_label` - Binary for whether the image contains anti-social imagery
+         - `is_antisocial_score` - Confidence in whether the image contains anti-social imagery
    - Challenge 2 submission details:
       - Each folder in the challenge data corresponds to a particular account ID.
       - For each account ID, generate two pairs of labels:
@@ -26,7 +33,20 @@ To make a submission, please follow these instructions:
          - `user_id` - Hashed user ID, corresponds to the folder's name
          - `authentic` - Binary for whether the account is legitimate or not
          - `campaign` - Campaign ID
-   - Challenge 3 submission details *coming soon*
+   - Challenge 3 submission details:
+      - Each folder in the challenge data corresponds to a particular account ID, and each image in the account has a unique ID as well. E.g., account ID `625c7c5d97cc393d3e09e84c54b027cc-53173` has image `0002.jpg`, and this image should have the image id `625c7c5d97cc393d3e09e84c54b027cc-53173/0002.jpg`.
+      - For each image ID, generate two sets of labels:
+          - The first set of labels contain `is_screenshot_label`, or whether the image contains a screenshot (`0 = no screenshot`, `1 = contains a screenshot`) and the associated confidence score `is_screenshot_score`, or`0.0-1.0`, generally describing something like the confidence that this image is a screenshot.
+          - The second set of labels consist of scores for each image and its source platform: `discord_score,fb_score,fb-mobile_score,twitter_score,whatsapp_score`, where each field should be `0.0-1.0`, with higher values indicating more certainty that the image is from that platform.
+      - Write this data out to a CSV file, called `run.csv`, that contains the following three eight:
+         - `img_id` - Hashed user ID + img id, corresponds to the folder's name and the associated image
+         - `is_screenshot_label` - Binary for whether the image is a screenshot
+         - `is_screenshot_score` - Confidence that the image is a screenshot
+         - `discord_score` - Confidence that the screenshot is from Discord
+         - `fb_score` - Confidence that the screenshot is from Facebook
+         - `fb-mobile_score` - Confidence that the screenshot is from FB Mobile
+         - `twitter_score` - Confidence that the screenshot is from Twitter
+         - `whatsapp_score` - Confidence that the screenshot is from WhatsApp
 
 3. Decide on a submission id, which will be a permanent (public) unique key. The submission id should be of the form `yyyymmdd-foo`, where `foo` can be a suffix of your choice, e.g., your organization/group name.
 Please keep the length reasonable.
