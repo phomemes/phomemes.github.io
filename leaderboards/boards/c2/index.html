@@ -81,13 +81,17 @@
           return "";
       }
 
+      function round_num(num) {
+        return parseFloat(num).toFixed(4);
+      }
+
       CsvToHtmlTable.init({
         csv_path: "leaderboard.csv",
         element: "table-container", 
         allow_download: false,
         csv_options: {separator: ',', delimiter: '"'},
         datatables_options: {"paging": false, "order": [[1, 'desc']]},
-        custom_formatting: [[0, id_format], [3, description_format], [5, paper_link], [6, code_link]]
+        custom_formatting: [[0, id_format], [3, description_format], [5, paper_link], [6, code_link], [7, round_num], [8, round_num], [9, round_num], [10, round_num], [11, round_num], [12, round_num], [13, round_num], [14, round_num]]
       });
     </script>
   </body>
