@@ -1,2 +1,2 @@
-runtag,organization,model_description,type,paper,code,accuracy_overall,precision_overall,recall_overall,f1_overall
-c1-chs-nus-2022-06-05,Cinnaminson High School / National University of Singapore,"CNN Head for symbol identification, OFA used for image caption, then anti-social classification",automatic,,,0.3548387096774194,0.16901408450704225,0.9230769230769231,0.2857142857142857
+runtag,date,organization,model_description,type,paper,code,accuracy_overall,precision_overall,recall_overall,f1_overall
+c1-chs-nus,2022-06-05,Cinnaminson High School / National University of Singapore,"CNN Head for symbol identification, OFA used for image caption, then anti-social classification",automatic,,,0.3548387096774194,0.16901408450704225,0.9230769230769231,0.2857142857142857
