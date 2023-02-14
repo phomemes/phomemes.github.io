@@ -27,9 +27,9 @@ Papers should be submitted through EasyChair and use the AAAI author kit.
 
 The workshop invites authors to submit three types of papers:
 
-- Work-in-Progress Papers
-- Research or Research Proposals
-- Provocations or Critical Approaches
+- Research Papers (8+ pages)
+- Work-in-Progress Papers or Research Proposals (2-4 pages)
+- Provocations or Critical Approaches (1-2 pages)
 
 <!-- Core research papers must contain novel, previously-unpublished material related to the topics of the workshop. Accepted papers will be presented orally and will appear in the workshop proceedings.
 Work-In-Progress papers are shorter and meant to describe smaller, more focused research findings or research that is still in progress. Both of these paper types undergo a rigorous peer-review process and will be archived in the workshop proceedings, unless otherwise asked by the authors.
