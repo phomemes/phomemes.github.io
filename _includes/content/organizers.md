@@ -26,7 +26,7 @@
 
 
 ![image-left](/assets/images/people/chang.jpg){: .align-left .avatar} 
-[Keng-Chi Chang](https://kengchichang.com) <br/> [@kengchichang](http://twitter.com/ZacharyST)  <br/> he/him <br/> Department of Political Science, University of California, San Diego.
+[Keng-Chi Chang](https://kengchichang.com) <br/> [@kengchichang](http://twitter.com/kengchichang)  <br/> he/him <br/> Department of Political Science, University of California, San Diego.
 {: .align-left}
 
 
