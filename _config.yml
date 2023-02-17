@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "PhoMemes 2022"
+title: "PhoMemes 2023"
 email: cbuntain@umd.edu
 description: >- # this means to ignore newlines until "baseurl:"
   The workshop outlined in this proposal seeks to establish the limits of current capabilities in understanding the role and use of images in online political discourse, from misinformation and disinformation to political advertising and mobilization.
