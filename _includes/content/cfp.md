@@ -23,7 +23,7 @@ Topics include:
 TODO: Add link to the EasyChair and author kit
 -->
 
-Papers should be submitted through EasyChair and use the AAAI author kit.
+Papers should be submitted through [EasyChair](https://easychair.org/my/conference?conf=phomemes2023) and use the [AAAI author kit](https://www.overleaf.com/latex/templates/aaai-2023-author-kit/wxnmhzcrjbpc).
 
 The workshop invites authors to submit three types of papers:
 
