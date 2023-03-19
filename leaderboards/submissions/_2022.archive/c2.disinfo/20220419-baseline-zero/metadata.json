@@ -1,0 +1,9 @@
+{
+  "runtag": "zero.rule",
+  "date": "2022-05-12",
+  "organization": "umd",
+  "model_description": "Baseline that predicts the most common label, which is no disinformation agent.",
+  "type": "automatic",
+  "paper": "",
+  "code": ""
+}

@@ -1,0 +1,2 @@
+runtag,date,organization,model_description,type,paper,code,accuracy_overall,precision_overall,recall_overall,f1_overall,accuracy_macro,precision_macro,recall_macro,f1_macro
+umd-zero.rule-2022-05-12,2022/04/19,umd,"Baseline that predicts the most common label, which is no disinformation agent.",automatic,,,0.4309656823623304,0.0,0.0,0.0,0.7723862729449322,0.2,0.08619313647246608,0.12046848856664807

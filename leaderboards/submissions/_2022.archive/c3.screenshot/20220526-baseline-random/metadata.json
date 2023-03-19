@@ -1,0 +1,9 @@
+{
+  "runtag": "random",
+  "date": "2022-05-26",
+  "organization": "umd",
+  "model_description": "Baseline that predicts a random value for whether the image is of a screenshot or not and what platform it is from.",
+  "type": "automatic",
+  "paper": "",
+  "code": ""
+}

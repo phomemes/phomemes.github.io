@@ -1,0 +1,2 @@
+runtag,date,organization,model_description,type,paper,code,accuracy_overall,precision_overall,recall_overall,f1_overall,accuracy_macro,precision_macro,recall_macro,f1_macro
+infeco-resnet50-2022-05-25,2022/05/25,infeco,Take the mean image embedding for all images from an account and predict directly on this embedded structure.,automatic,,,0.7393794749403342,0.9523012552301255,0.6994468346650277,0.8065201984408221,0.8,0.0,0.0,0.0

@@ -1,0 +1,9 @@
+{
+  "runtag": "resnet50",
+  "date": "2022-05-25",
+  "organization": "infeco",
+  "model_description": "Take the mean image embedding for all images from an account and predict directly on this embedded structure.",
+  "type": "automatic",
+  "paper": "",
+  "code": ""
+}
