@@ -1,9 +1,0 @@
-{
-  "runtag": "random",
-  "date": "2022-05-26",
-  "organization": "umd",
-  "model_description": "Baseline that predicts a random value for whether the image contains a hateful symbol or not along with a likelihood score",
-  "type": "automatic",
-  "paper": "",
-  "code": ""
-}

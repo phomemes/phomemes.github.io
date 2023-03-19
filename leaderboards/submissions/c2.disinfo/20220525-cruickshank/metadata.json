@@ -1,9 +1,0 @@
-{
-  "runtag": "1.1",
-  "date": "2022-05-25",
-  "organization": "CMU-CASOS",
-  "model_description": "Visual embeddings combined with supervised learning on user distribution features of their visual embeddings.",
-  "type": "automatic",
-  "paper": "https://github.com/ijcruic/PhoMemes2022-Submission",
-  "code": "https://github.com/ijcruic/PhoMemes2022-Submission"
-}

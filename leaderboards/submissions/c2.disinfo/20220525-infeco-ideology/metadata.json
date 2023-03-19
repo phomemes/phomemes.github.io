@@ -1,9 +1,0 @@
-{
-  "runtag": "ideology",
-  "date": "2022-05-25",
-  "organization": "infeco",
-  "model_description": "Using the clustering method outlined in https://arxiv.org/abs/2110.01183, we use each account's distribution of images across political-image clusters as features for classification.",
-  "type": "automatic",
-  "paper": "",
-  "code": ""
-}

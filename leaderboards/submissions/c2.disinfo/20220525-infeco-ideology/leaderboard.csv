@@ -1,2 +1,0 @@
-runtag,date,organization,model_description,type,paper,code,accuracy_overall,precision_overall,recall_overall,f1_overall,accuracy_macro,precision_macro,recall_macro,f1_macro
-infeco-ideology-2022-05-25,2022/05/25,infeco,"Using the clustering method outlined in https://arxiv.org/abs/2110.01183, we use each account's distribution of images across political-image clusters as features for classification.",automatic,,,0.801909307875895,0.9899581589958159,0.7459016393442623,0.8507731032002878,0.8,0.0,0.0,0.0

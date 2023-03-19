@@ -1,9 +1,0 @@
-{
-  "runtag": "2.0",
-  "date": "2022-05-27",
-  "organization": "CMU-CASOS",
-  "model_description": "Images are first embedded bia a pre-trained EfficieNet B7 model. Features are taken from user-based distributional statistics of the images, combined with binning of images by clustering. Final classificatio model is a SVC.",
-  "type": "automatic",
-  "paper": "https://github.com/ijcruic/PhoMemes2022-Submission",
-  "code": "https://github.com/ijcruic/PhoMemes2022-Submission"
-}

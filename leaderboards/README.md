@@ -11,29 +11,20 @@ To make a submission, please follow these instructions:
 
 1. Download the challenge data, either `challenge_data.small` or `challenge_data.large`.
 
-2. Based on which challenge you are submitting to, either create labels for the individual images in these datasets (Challenge 1 and Challenge 3), or create labels for each account in your selected dataset. 
+2. Based on which challenge you are submitting to, either create labels for each account in your selected dataset (Challenge 1), or create labels for the individual images in these datasets (Challenge 2). 
    - Challenge 1 submission details:
-      - Each folder in the challenge data corresponds to a particular account ID, and each image in the account has a unique ID as well. E.g., account ID `625c7c5d97cc393d3e09e84c54b027cc-53173` has image `0002.jpg`, and this image should have the image id `625c7c5d97cc393d3e09e84c54b027cc-53173/0002.jpg`.
-      - For each image ID, generate two of labels:
-          - The first label should contain `is_antisocial_label`, or whether the image contains anti-social content (`0 = no anti-social content`, `1 = contains anti-social content`) and the associated confidence score `is_antisocial_score`, or`0.0-1.0`, generally describing something like the confidence that this image contains anti-social imagery.
-      - Write this data out to a CSV file, called `run.csv`, that contains the following three fields:
-         - `img_id` - Hashed user ID + img id, corresponds to the folder's name and the associated image
-         - `is_antisocial_label` - Binary for whether the image contains anti-social imagery
-         - `is_antisocial_score` - Confidence in whether the image contains anti-social imagery
-   - Challenge 2 submission details:
       - Each folder in the challenge data corresponds to a particular account ID.
       - For each account ID, generate two pairs of labels:
-          - The first label, `authentic`, is for whether the account is authentic or not (`0 = inauthentic` or disinformation agent, `1 = authentic` or a legitimate account).
-          - The second label, `campaign`, corresponds to the disinformation campaign with which this account is associated. If the `authentic` label is `1`, then this `campaign` label should be "None". Otherwise, the labels should come from the space:
-            - campaign.china_2019
-            - campaign.iranian_2018
-            - campaign.russia_2018
-            - campaign.venezuela_2019
+          - The first label, `inauthentic`, is for whether the account is authentic or not (`1 = inauthentic` or disinformation agent, `0 = authentic` or a legitimate account).
+          - The second label, `campaign`, corresponds to the disinformation campaign with which this account is associated. If the `inauthentic` label is `0`, then this actor is legitimate, and its `campaign` label should be `"None`. If the `inauthentic` label is `1`, then this `campaign` label should come from the following:
+            - campaign.iranian
+            - campaign.russian
+            - campaign.venezuelan
       - Write this data out to a CSV file, called `run.csv`, that contains the following three fields:
          - `user_id` - Hashed user ID, corresponds to the folder's name
-         - `authentic` - Binary for whether the account is legitimate or not
+         - `inauthentic` - Binary for whether the account is a legitimate or authentic actor or not
          - `campaign` - Campaign ID
-   - Challenge 3 submission details:
+   - Challenge 2 submission details:
       - Each folder in the challenge data corresponds to a particular account ID, and each image in the account has a unique ID as well. E.g., account ID `625c7c5d97cc393d3e09e84c54b027cc-53173` has image `0002.jpg`, and this image should have the image id `625c7c5d97cc393d3e09e84c54b027cc-53173/0002.jpg`.
       - For each image ID, generate two sets of labels:
           - The first set of labels contain `is_screenshot_label`, or whether the image contains a screenshot (`0 = no screenshot`, `1 = contains a screenshot`) and the associated confidence score `is_screenshot_score`, or`0.0-1.0`, generally describing something like the confidence that this image is a screenshot.
@@ -53,7 +44,7 @@ Please keep the length reasonable.
 See [here](https://github.com/phomemes/phomemes.github.io/tree/main/leaderboards/submissions/) for examples.
 `yyyymmdd` should correspond to the submission date of your run.
 
-4. In the directory `leaderboards/submissions/<CHALLENGE_ID>`, where `CHALLENGE_ID` is the challenge descriptor (one of `c1.hate`, `c2.disinfo`, `c3.screenshot`), create the following files:
+4. In the directory `leaderboards/submissions/<CHALLENGE_ID>`, where `CHALLENGE_ID` is the challenge descriptor (one of `c1.disinfo`, `c2.screenshot`), create the following files:
    1. `leaderboards/submissions/<CHALLENGE_ID>/yyyymmdd-foo/run.csv` - run file containing your labels for this challenge
    2. `leaderboards/submissions/<CHALLENGE_ID>/yyyymmdd-foo/metadata.json`, in the following format:
 

@@ -1,9 +1,0 @@
-{
-    "runtag": "c1-chs-nus",
-    "date": "2022-06-05",
-    "organization": "Cinnaminson High School / National University of Singapore",
-    "model_description": "CNN Head for symbol identification, OFA used for image caption, then anti-social classification",
-    "type": "automatic",
-    "paper": "",
-    "code": ""
-  }

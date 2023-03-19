@@ -1,2 +1,0 @@
-runtag,organization,model_description,type,paper,code,accuracy_overall,precision_overall,recall_overall,f1_overall,accuracy_macro,precision_macro,recall_macro,f1_macro
-CMU-CASOS-1.1-2022-05-25,CMU-CASOS,Visual embeddings combined with supervised learning on user distribution features of their visual embeddings.,automatic,https://github.com/ijcruic/PhoMemes2022-Submission,https://github.com/ijcruic/PhoMemes2022-Submission,0.7465393794749403,0.701255230125523,0.8280632411067194,0.7594019030357951,0.822434367541766,0.4523319755916659,0.5167751944001105,0.46750558592036773
