@@ -9,7 +9,14 @@ All associated data for the challenges are held on [this page](https://phomemes.
 
 To make a submission, please follow these instructions:
 
-1. Download the challenge data, either `challenge_data.small` or `challenge_data.large`.
+1. Download the `*.partition.tar` challenge data from [Google Drive](https://drive.google.com/drive/folders/17Ehr0LZBBnXuHfW7gqJFqiRbDv2mr5gM?usp=sharing). 
+   - Data for Challenge 1 and Challenge 2 are the same, where we have provided a sample of hashed accounts and images they have shared.
+   - We provide two forms of this image data:
+      - Dense embeddings of *all* images using the [EfficientNetB1](https://www.tensorflow.org/api_docs/python/tf/keras/applications/efficientnet/EfficientNetB1) model in `TestData.ActorEmbeddings`, or
+      - A subsample of raw images for each hashed account, in `TestData.ActorImages`
+   - Each dataset is partitioned by first character of the hashed account ID, so `0.partition.tar` contains data for all accounts whose hashed IDs start with `0`. Download all partition files to reconstruct the full dataset.
+
+
 
 2. Based on which challenge you are submitting to, either create labels for each account in your selected dataset (Challenge 1), or create labels for the individual images in these datasets (Challenge 2). 
    - Challenge 1 submission details:
@@ -25,7 +32,7 @@ To make a submission, please follow these instructions:
          - `inauthentic` - Binary for whether the account is a legitimate or authentic actor or not
          - `campaign` - Campaign ID
    - Challenge 2 submission details:
-      - Each folder in the challenge data corresponds to a particular account ID, and each image in the account has a unique ID as well. E.g., account ID `625c7c5d97cc393d3e09e84c54b027cc-53173` has image `0002.jpg`, and this image should have the image id `625c7c5d97cc393d3e09e84c54b027cc-53173/0002.jpg`.
+      - Each folder in the challenge data corresponds to a particular account ID, and each image in the account has a unique ID as well. E.g., account ID `0ebfaca2f71c9edf248dbd5950827358` has image `0ebfaca2f71c9edf248dbd5950827358-65d8174e3cebf675eba01ea198562688.jpg`.
       - For each image ID, generate two sets of labels:
           - The first set of labels contain `is_screenshot_label`, or whether the image contains a screenshot (`0 = no screenshot`, `1 = contains a screenshot`) and the associated confidence score `is_screenshot_score`, or`0.0-1.0`, generally describing something like the confidence that this image is a screenshot.
           - The second set of labels consist of scores for each image and its source platform: `discord_score,fb_score,fb-mobile_score,twitter_score,whatsapp_score`, where each field should be `0.0-1.0`, with higher values indicating more certainty that the image is from that platform.
