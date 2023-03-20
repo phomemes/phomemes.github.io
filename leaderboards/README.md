@@ -23,7 +23,7 @@ To make a submission, please follow these instructions:
       - Each folder in the challenge data corresponds to a particular account ID.
       - For each account ID, generate two pairs of labels:
           - The first label, `inauthentic`, is for whether the account is authentic or not (`1 = inauthentic` or disinformation agent, `0 = authentic` or a legitimate account).
-          - The second label, `campaign`, corresponds to the disinformation campaign with which this account is associated. If the `inauthentic` label is `0`, then this actor is legitimate, and its `campaign` label should be `"None`. If the `inauthentic` label is `1`, then this `campaign` label should come from the following:
+          - The second label, `campaign`, corresponds to the disinformation campaign with which this account is associated. If the `inauthentic` label is `0`, then this actor is legitimate, and its `campaign` label should be `"None"`. If the `inauthentic` label is `1`, then this `campaign` label should come from the following:
             - campaign.iranian
             - campaign.russian
             - campaign.venezuelan
@@ -31,6 +31,7 @@ To make a submission, please follow these instructions:
          - `user_id` - Hashed user ID, corresponds to the folder's name
          - `inauthentic` - Binary for whether the account is a legitimate or authentic actor or not
          - `campaign` - Campaign ID
+      - We provide a skeleton run file on GitHub [here](https://github.com/phomemes/phomemes.github.io/blob/main/leaderboards/eval/C1.run_skeleton.csv)
    - Challenge 2 submission details:
       - Each folder in the challenge data corresponds to a particular account ID, and each image in the account has a unique ID as well. E.g., account ID `0ebfaca2f71c9edf248dbd5950827358` has image `0ebfaca2f71c9edf248dbd5950827358-65d8174e3cebf675eba01ea198562688.jpg`.
       - For each image ID, generate two sets of labels:
