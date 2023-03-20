@@ -34,18 +34,12 @@ To make a submission, please follow these instructions:
       - We provide a skeleton run file on GitHub [here](https://github.com/phomemes/phomemes.github.io/blob/main/leaderboards/eval/C1.run_skeleton.csv)
    - Challenge 2 submission details:
       - Each folder in the challenge data corresponds to a particular account ID, and each image in the account has a unique ID as well. E.g., account ID `0ebfaca2f71c9edf248dbd5950827358` has image `0ebfaca2f71c9edf248dbd5950827358-65d8174e3cebf675eba01ea198562688.jpg`.
-      - For each image ID, generate two sets of labels:
-          - The first set of labels contain `is_screenshot_label`, or whether the image contains a screenshot (`0 = no screenshot`, `1 = contains a screenshot`) and the associated confidence score `is_screenshot_score`, or`0.0-1.0`, generally describing something like the confidence that this image is a screenshot.
-          - The second set of labels consist of scores for each image and its source platform: `discord_score,fb_score,fb-mobile_score,twitter_score,whatsapp_score`, where each field should be `0.0-1.0`, with higher values indicating more certainty that the image is from that platform.
+      - For each image ID, generate  labels for whether the image contains a screenshot (`0 = no screenshot`, `1 = contains a screenshot`) and the associated confidence score `is_screenshot_score`, or`0.0-1.0`, generally describing something like the confidence that this image is a screenshot.
       - Write this data out to a CSV file, called `run.csv`, that contains the following three eight:
-         - `img_id` - Hashed user ID + img id, corresponds to the folder's name and the associated image
+         - `img_id` - Image ID, either taken from the `encoded_pickle_indices.tgz` file that maps rows in pickled matrices to image IDs  or the raw image filename.
          - `is_screenshot_label` - Binary for whether the image is a screenshot
          - `is_screenshot_score` - Confidence that the image is a screenshot
-         - `discord_score` - Confidence that the screenshot is from Discord
-         - `fb_score` - Confidence that the screenshot is from Facebook
-         - `fb-mobile_score` - Confidence that the screenshot is from FB Mobile
-         - `twitter_score` - Confidence that the screenshot is from Twitter
-         - `whatsapp_score` - Confidence that the screenshot is from WhatsApp
+      - We provide a skeleton run file on GitHub [here](https://github.com/phomemes/phomemes.github.io/blob/main/leaderboards/eval/C2.run_skeleton.csv)
 
 3. Decide on a submission id, which will be a permanent (public) unique key. The submission id should be of the form `yyyymmdd-foo`, where `foo` can be a suffix of your choice, e.g., your organization/group name.
 Please keep the length reasonable.
