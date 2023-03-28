@@ -18,7 +18,7 @@ To make a submission, please follow these instructions:
 
 
 
-2. Based on which challenge you are submitting to, either create labels for each account in your selected dataset (Challenge 1), or create labels for the individual images in these datasets (Challenge 2). 
+2. Based on which challenge you are submitting to, either create labels for each account in your selected dataset (Challenge 1), or create labels for the individual images in these datasets (Challenge 2 and 3). 
    - Challenge 1 submission details:
       - Each folder in the challenge data corresponds to a particular account ID.
       - For each account ID, generate two pairs of labels:
@@ -40,6 +40,14 @@ To make a submission, please follow these instructions:
          - `is_screenshot_label` - Binary for whether the image is a screenshot
          - `is_screenshot_score` - Confidence that the image is a screenshot
       - We provide a skeleton run file on GitHub [here](https://github.com/phomemes/phomemes.github.io/blob/main/leaderboards/eval/C2.run_skeleton.csv)
+   - Challenge 3 submission details:
+      - As in Challenge 2, each folder in the challenge data corresponds to a particular account ID, and each image in the account has a unique ID as well. E.g., account ID `0ebfaca2f71c9edf248dbd5950827358` has image `0ebfaca2f71c9edf248dbd5950827358-65d8174e3cebf675eba01ea198562688.jpg`.
+      - For each image ID, generate  labels for whether the image contains a hate symbol (`0 = no hate symbol`, `1 = contains a hate symbol`) and the associated confidence score `has_hate_score`, or`0.0-1.0`, generally describing something like the confidence that this image contains a hate symbol.
+      - Write this data out to a CSV file, called `run.csv`, that contains the following three eight:
+         - `img_id` - Image ID, either taken from the `encoded_pickle_indices.tgz` file that maps rows in pickled matrices to image IDs  or the raw image filename.
+         - `has_hate_label` - Binary for whether the image contains a hate symbol
+         - `has_hate_score` - Confidence that the image contains a hate symbol
+      - We provide a skeleton run file on GitHub [here](https://github.com/phomemes/phomemes.github.io/blob/main/leaderboards/eval/C3.run_skeleton.csv)
 
 3. Decide on a submission id, which will be a permanent (public) unique key. The submission id should be of the form `yyyymmdd-foo`, where `foo` can be a suffix of your choice, e.g., your organization/group name.
 Please keep the length reasonable.
