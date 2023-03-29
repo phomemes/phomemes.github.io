@@ -1,8 +1,8 @@
 
 - __Data Challenge Release__: February 15th
-- __Paper Submission__: March 27th 
-- __Paper Notification__: April 10th
-- __Camera-Ready Paper Submission__: April 17th
+- __Paper Submission__: April 1st **Updated**
+- __Paper Notification__: April 17th **Updated**
+- __Camera-Ready Paper Submission__: April 24th
 - __Data Challenge Poster Submission__: May 1st
 - __Poster Notification__: May 15th
 - __ICWSM22 Workshop Day__: June 5th 
