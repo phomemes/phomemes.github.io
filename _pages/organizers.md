@@ -6,9 +6,11 @@ layout: single
 
 <br/>
 
-<div align="left">
-
 ## Program Committee
+
+- Lynnette Ng ,   Carnegie Mellon University
+
+<div align="left">
 
 - Lynnette Ng ,   Carnegie Mellon University
 - Haewoon Kwak,   Indiana University Bloomington
