@@ -6,6 +6,8 @@ layout: single
 
 {% include content/organizers.md %}
 
+<!--more-->
+
 ## Program Committee
 
 - Lynnette Ng ,   Carnegie Mellon University
