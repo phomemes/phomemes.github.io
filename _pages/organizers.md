@@ -4,11 +4,9 @@ title: "Organizers"
 layout: single
 ---
 
-{% include content/organizers.md %}
-
 <br/>
 
-<!-- <div align="left"> -->
+<div align="left">
 
 ## Program Committee
 
@@ -25,4 +23,8 @@ layout: single
 - Ruizhe Fan,   University of Maryland
 - Bernice L. Z. Khoo,   National University of Singapore
 
-<!-- </div> -->
+</div>
+
+<br/>
+
+{% include content/organizers.md %}
