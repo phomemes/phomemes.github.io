@@ -9,10 +9,6 @@ layout: single
 ## Program Committee
 
 - Lynnette Ng ,   Carnegie Mellon University
-
-<div align="left">
-
-- Lynnette Ng ,   Carnegie Mellon University
 - Haewoon Kwak,   Indiana University Bloomington
 - Kokil Jaidka,   National University of Singapore
 - Aaron Striegel,   University of Notre Dame
@@ -25,8 +21,8 @@ layout: single
 - Ruizhe Fan,   University of Maryland
 - Bernice L. Z. Khoo,   National University of Singapore
 
-</div>
-
 <br/>
+
+## Organizers
 
 {% include content/organizers.md %}
