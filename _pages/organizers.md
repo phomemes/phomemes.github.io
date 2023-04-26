@@ -6,7 +6,9 @@ layout: single
 
 {% include content/organizers.md %}
 
-<!--more-->
+<br/>
+
+<!-- <div align="left"> -->
 
 ## Program Committee
 
@@ -22,3 +24,5 @@ layout: single
 - Patrick Wu,   New York University
 - Ruizhe Fan,   University of Maryland
 - Bernice L. Z. Khoo,   National University of Singapore
+
+<!-- </div> -->
