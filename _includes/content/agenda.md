@@ -17,7 +17,7 @@
 ## Afternoon Session 
 
 - 2:00-2:05 Welcome Back
-- 1:45-2:45 Keynote #2 - Title TBD, [Michael Bossetta](https://michaelbossetta.com/)
+- 1:45-2:45 Keynote #2 - "Political Faces in Online Spaces: The Potentials and Pitfalls of Computer Vision for Digital Campaigning Research", [Michael Bossetta](https://michaelbossetta.com/)
     - __Bio__: Michael is an Assistant Professor in the Department of Communication and Media at Lund University, where he specializes in the impact of social media on politics. His research focuses on how politicians and citizens use social media during elections. Michael also produces and hosts the Social Media and Politics Podcast, an interview-driven podcast aiming to disseminate research findings to the public. The show has over 175,000 downloads from 150+ countries.
 - 2:45-3:00 Keynote Q&A
 - 3:00-3:30 Paper Session #1, Long Papers
